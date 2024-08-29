@@ -1,0 +1,19 @@
+using device: cuda
+total desired batch size: 524288
+=> calculated gradient accumulation steps: 32
+loaded 338025 tokens
+1 epoch = 20 batches
+num decayed parameter tensors: 50, with 124,354,560 parameters
+num non-decayed parameter tensors: 98, with 121,344 parameters
+using fused Adam: True
+step 0 | loss: 10.938573 | lr: 6.0000e-05 | norm: 27.0159 | time: 17830.71ms | tokens/sec: 29403.65
+step 1 | loss: 9.649478 | lr: 1.2000e-04 | norm: 9.5112 | time: 4431.57ms | tokens/sec: 118307.47
+step 2 | loss: 9.224363 | lr: 1.8000e-04 | norm: 5.6746 | time: 4432.29ms | tokens/sec: 118288.30
+step 3 | loss: 9.811574 | lr: 2.4000e-04 | norm: 8.2231 | time: 4435.86ms | tokens/sec: 118193.09
+step 4 | loss: 9.189645 | lr: 3.0000e-04 | norm: 4.3007 | time: 4436.38ms | tokens/sec: 118179.35
+step 5 | loss: 8.676425 | lr: 3.6000e-04 | norm: 3.6240 | time: 4435.48ms | tokens/sec: 118203.11
+step 6 | loss: 8.295091 | lr: 4.2000e-04 | norm: 1.9520 | time: 4436.04ms | tokens/sec: 118188.23
+step 7 | loss: 8.065273 | lr: 4.8000e-04 | norm: 2.7649 | time: 4439.42ms | tokens/sec: 118098.18
+step 8 | loss: 7.712014 | lr: 5.4000e-04 | norm: 1.9379 | time: 4439.30ms | tokens/sec: 118101.59
+step 9 | loss: 7.344805 | lr: 6.0000e-04 | norm: 1.8052 | time: 4440.14ms | tokens/sec: 118079.17
+step 10 | loss: 7.027253 | lr: 6.0000e-04 | norm: 1.8212 | time: 4440.85ms | tokens/sec: 118060
